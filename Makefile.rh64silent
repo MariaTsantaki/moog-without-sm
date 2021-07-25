@@ -27,7 +27,7 @@ COMMON =  Atmos.com Dummy.com Equivs.com Factor.com Kappa.com Linex.com \
         Quants.com Multimod.com Dampdat.com
 
 CC = cc
-FC = gfortran -Wall
+FC = gfortran -fallow-argument-mismatch -Wall
 
 #        here are the compilation and linking commands
 all: MOOGSILENT ;
